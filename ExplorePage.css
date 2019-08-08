@@ -1,0 +1,85 @@
+.EntireBack
+{
+  background-color: rgba(220, 220, 220, 0.281);
+  font-family: 'Anaheim';
+  font-size: 20px;
+  margin: 0;
+  line-height: 1.6em;
+}
+.MainHeader
+{
+
+  background-color: rgba(244, 165, 96, 0.747);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  overflow: hidden;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+}
+.logo
+{
+  height: 37px;
+}
+.body-crap
+{
+    background-size: cover;
+    background-color: rgba(220, 220, 220, 0.281);
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.ExploreButton
+{
+  text-decoration: none;
+}
+.words
+{
+  text-overflow: ellipsis;
+}
+.ExploreButton:hover
+{
+  opacity: 0.5;
+}
+.pic
+{
+  clip-path: circle(37%);
+  vertical-align: middle;
+
+}
+.foot-end
+{
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  /*
+  background-size: cover;
+  background-color: rgba(255, 218, 185, 0.849);
+  position: absolute;
+  */
+}
+#footerNavBar
+{
+  color: white;
+}
+#footerNavBar ul
+{
+  list-style: none;
+}
+#footerNavBar li
+{
+  display: inline;
+}
+#footerNavBar a
+{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding-right: 1px;
+}
