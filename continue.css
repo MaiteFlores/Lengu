@@ -79,7 +79,7 @@
   letter-spacing: 7px;
   text-align: left;
   text-decoration: underline;
-  padding-left: 30px;
+  padding-left: 40px;
 }
 .instructionsAudio
 {
@@ -102,7 +102,7 @@
 }
 .instructions
 {
-  padding-left: 30px;
+  padding-left: 40px;
   color: rgba(228, 99, 39, 0.849);
   letter-spacing: 2px;
 }
