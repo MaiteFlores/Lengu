@@ -29,11 +29,14 @@
       <h4 class = "instructions">Fill in the blank</h4>
       <div class="questions">
         <ol type="1">
+          <!--Format for "write the answer" questions--> 
           <li>Are you hungry? </li>
             <form>
               <input type="text" placeholder="Enter your answer"/>
             </form>
           <br>
+          
+          <!--Format for "full sentence selection" questions-->
           <ul>Fill in the sentence appropiately</ul>
             <li> 
               <label>Sentence 1</label>
@@ -98,14 +101,17 @@
               
               </select>
           </li>
-          <li>Yo <select word="word">
-                        <option value="Select">Select</option>
-                        <option value="tengo">tengo</option>
-                        <option value="tiene">tiene</option>
-                        <option value="tienemos">tienemos</option>
-                        <option value="tienes">tienes</option>
-                      </select>
-                hambre
+          
+          <!--Format for "select the single missing word" questions-->
+          <li>Yo 
+            <select word="word">
+                <option value="Select">Select</option>
+                <option value="tengo">tengo</option>
+                <option value="tiene">tiene</option>
+                <option value="tienemos">tienemos</option>
+                <option value="tienes">tienes</option>
+              </select>
+              hambre
           </li>
           
          </ol>
